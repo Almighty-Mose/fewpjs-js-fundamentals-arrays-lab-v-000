@@ -1,2 +1,3 @@
 // Write your solution here!
-const append, prepend, removeLast, removeFirst
+let append, prepend, removeLast, removeFirst;
+append = prepend = removeLast = removeFirst = ["Milo", "Otis", "Garfield"]
