@@ -1,8 +1,8 @@
 // Write your solution here!
 const append = ['Milo', 'Otis', 'Garfield'],
-      prepend = ['Milo', 'Otis', 'Garfield'],
-      removeLast = ['Milo', 'Otis', 'Garfield'],
-      removeFirst = ['Milo', 'Otis', 'Garfield'];
+      prepend = [...append],
+      removeLast = [...append],
+      removeFirst = [...append];
 
 append.push('Odie');
 prepend.unshift('Odie');
