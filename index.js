@@ -1,6 +1,8 @@
 // Write your solution here!
-let append, prepend, removeLast, removeFirst;
-append = prepend = removeLast = removeFirst = ["Milo", "Otis", "Garfield"]
+const append = ['Milo', 'Otis', 'Garfield'];
+const prepend = append;
+const removeLast = append;
+const removeFirst = append;
 
 append.push("Odie");
 prepend.unshift("Odie");
